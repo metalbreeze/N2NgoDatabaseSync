@@ -1,8 +1,7 @@
-# N2NgoDatabaseSync
-support source mutilple mysql tables  synchronize to target mutilple mysql tables.
+# multiple tables of multiple Databases to multiple tables of multiple Databases Synchronization.
 
-
-for same table but come from mutilple database,  sychronzation process just simple add records together, so them should not contains same unique key.
+The rows in a same table name but came from multiple databases,  sychronzation process just simple gather all records into a new table,
+so them should not contains same unique key.
 
 1. config the configuation file: config.yml
 2. run : go run sync.go 
